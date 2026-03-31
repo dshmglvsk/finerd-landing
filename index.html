@@ -1,24 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your description here">
+    <title>Finerd — AI-тренер для інтровертів</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Improved Landing Page</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Service</h1>
+    <nav>
+        <ul>
+            <li><a href="#features">Особливості</a></li>
+            <li><a href="#how-it-works">Як це працює</a></li>
+            <li><a href="#waitlist">Чек-лист</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <h1>Ласкаво просимо до Finerd</h1>
+        <p>Ваш AI-тренер для інтровертів</p>
+        <a href="#waitlist" class="btn">Записатися</a>
     </header>
-    <main>
-        <form action="https://formspree.io/f/mnqvqlvj" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
+    <section id="how-it-works">
+        <h2>Як це працює</h2>
+        <ol>
+            <li>Зареєструйтесь на нашому сайті.</li>
+            <li>Отримайте доступ до персоналізованих уроків.</li>
+            <li>Розвивайте свої навички в зручному для вас темпі.</li>
+        </ol>
+    </section>
+    <section id="features">
+        <h2>Особливості</h2>
+        <ul>
+            <li>Персоналізовані заняття</li>
+            <li>Зручний інтерфейс</li>
+            <li>Підтримка завжди поруч</li>
+        </ul>
+    </section>
+    <section id="waitlist">
+        <h2>Приєднуйтесь до нашого чек-листу</h2>
+        <form>
+            <label for="email">Ваш Email:</label>
             <input type="email" id="email" name="email" required>
-            <button type="submit">Submit</button>
+            <button type="submit">Записатися</button>
         </form>
-    </main>
+    </section>
+    <footer>
+        <p>&copy; 2026 Finerd. Усі права захищено.</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
